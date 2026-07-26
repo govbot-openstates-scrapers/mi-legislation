@@ -78,7 +78,6 @@ jobs:
           commit-and-push: true
           force-update: ${{ inputs.force-update }}
           branch: main
-          docker-image: ghcr.io/tamara-builds/openstates-scrapers:mi-fix-test
           api-keys: |
             {
               "DC_API_KEY": "${{ secrets.DC_API_KEY }}",
