@@ -10,5 +10,17 @@
     ],
     "failure_type": "UNKNOWN",
     "error_summary": "    report = do_update(args, other, juris) "
+  },
+  "2026-10-11": {
+    "warning_count": 258,
+    "error_count": 3,
+    "skipped_count": 0,
+    "sample_warnings": [
+      "10:37:07 WARNING openstates: no session provided, using active sessions: {'2025-2026'}",
+      "10:38:14 WARNING openstates: piece without vtype set: ",
+      "10:38:14 WARNING openstates: vote count mismatch for SB 0018 ROLL CALL: ROLL CALL # 214 YEAS 36 NAYS 0 EXCUSED 2 NOT VOTING 0, 36 != 4"
+    ],
+    "failure_type": "H2_AUTH_FAILURE",
+    "error_summary": "    report = do_update(args, other, juris) "
   }
 }
