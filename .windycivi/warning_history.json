@@ -22,5 +22,17 @@
     ],
     "failure_type": "H2_AUTH_FAILURE",
     "error_summary": "    report = do_update(args, other, juris) "
+  },
+  "2026-10-21": {
+    "warning_count": 374,
+    "error_count": 2,
+    "skipped_count": 0,
+    "sample_warnings": [
+      "09:07:50 WARNING openstates: no session provided, using active sessions: {'2025-2026'}",
+      "09:09:54 WARNING openstates: piece without vtype set: ",
+      "09:10:10 WARNING openstates: piece without vtype set: "
+    ],
+    "failure_type": "NONE",
+    "error_summary": "  File \"/opt/openstates/openstates/scrapers/mi/__init__.py\", line 99, in get_session_list "
   }
 }
