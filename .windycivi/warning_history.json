@@ -34,5 +34,17 @@
     ],
     "failure_type": "NONE",
     "error_summary": "  File \"/opt/openstates/openstates/scrapers/mi/__init__.py\", line 99, in get_session_list "
+  },
+  "2026-10-22": {
+    "warning_count": 157,
+    "error_count": 3,
+    "skipped_count": 0,
+    "sample_warnings": [
+      "09:11:30 WARNING openstates: no session provided, using active sessions: {'2025-2026'}",
+      "09:18:50 WARNING openstates: piece without vtype set: ",
+      "09:18:59 WARNING openstates: piece without vtype set: "
+    ],
+    "failure_type": "H3_RATE_LIMITED",
+    "error_summary": "    report = do_update(args, other, juris) "
   }
 }
