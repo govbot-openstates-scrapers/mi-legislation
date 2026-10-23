@@ -46,5 +46,15 @@
     ],
     "failure_type": "H3_RATE_LIMITED",
     "error_summary": "    report = do_update(args, other, juris) "
+  },
+  "2026-10-23": {
+    "warning_count": 1,
+    "error_count": 3,
+    "skipped_count": 0,
+    "sample_warnings": [
+      "09:07:44 WARNING openstates: no session provided, using active sessions: {'2025-2026'}"
+    ],
+    "failure_type": "H4_SERVER_DOWN",
+    "error_summary": "    report = do_update(args, other, juris) "
   }
 }
